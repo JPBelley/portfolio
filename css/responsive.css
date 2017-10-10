@@ -1,0 +1,18 @@
+/* Header  
+____________________________*/
+@media screen and (max-width: 768px) {
+	#loader {
+		margin-left: -32px;
+	}
+	#logo {
+		width: 80px;
+		margin: 10px;
+	}
+	.burgermenu {
+	    top: 40px;
+	    right: 40px;
+	}
+/*	.realmenu {
+		font-size: 3em;
+	}*/
+}

@@ -1,0 +1,19 @@
+{
+  "name": "jp",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPBelley/portfolio.git"
+  },
+  "author": "JPBelley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JPBelley/portfolio/issues"
+  },
+  "homepage": "https://github.com/JPBelley/portfolio#readme"
+}
