@@ -77,6 +77,7 @@ section {
     bottom: 0px;
     width: 50px;
     z-index: 2;
+    cursor: pointer;
 }
 #logo-skills {
 	position: fixed;
@@ -85,11 +86,12 @@ section {
     left: 0px;
     cursor: pointer;
 }
-#logoAbout {
+#logo-about {
 	position: fixed;
     margin: 35px 75px 35px 35px;
     right: 0px;
     width: 40px;
+    cursor: pointer;
 }
 /* Navigation Menu */
 nav a {
@@ -431,6 +433,7 @@ a:active {
     width: 102%;
     height: 50px;
     content:" ";
+    z-index: -2;
     top: -29px;
 }
 #skills i {
@@ -557,7 +560,6 @@ a:active {
     font-weight: 100;
 }
 #about p {
-	width: 40%;
     float: right;
     margin: 30px 80px 0 0;
     font-family: 'Raleway', Helvetica, sans-serif;
@@ -571,6 +573,11 @@ a:active {
     height: 40%;
     background-color: #1C1C1C;
     z-index: 0;
+}
+@media (min-width: 769px) {
+	#about p {
+		width: 40%;
+	}
 }
 #stylediv::before {
 	position: absolute;
@@ -587,6 +594,7 @@ a:active {
     height: 50px;
     content:" ";
     top: -29px;
+    z-index: -2;
 }
 #stylediv p {
 	float: left;

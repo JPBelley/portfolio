@@ -5,7 +5,6 @@ window.onload = function() {
     showPortfolioFromSkills()
     showPortfolio();
     showSkills();
-    openAbout();
     showHeaderFromSkills();
 };
 // Open burger Menu
@@ -13,7 +12,12 @@ function openMenu() {
   document.getElementById("nav-icon1").onclick = function() {
     if ( document.getElementById("onClickShow").className == "close") {
       document.getElementById("onClickShow").className = "openMenu";
-      $("#onClickShow").animate({width: 640}, {duration: "slow"});
+      // Add responsiveness to the menu animation
+      if (screen.width < 768) {
+        $("#onClickShow").animate({width: 180}, {duration: "slow"});
+      } else {
+        $("#onClickShow").animate({width: 640}, {duration: "slow"});
+      }
     } else {
       $("#onClickShow").animate({width: 0}, {duration: 500});
       document.getElementById("onClickShow").className = "close";
@@ -26,6 +30,8 @@ $(document).ready(function(){
 		$(this).toggleClass('open');
 	});
 });
+// Header Menu 
+//_________________________________
 // Show skills from menu
 function showSkills() {
   document.getElementById("openSkills").onclick = function() {
@@ -50,20 +56,40 @@ function showSkills() {
     }
   };
 }
-// Smooth scroll 
-// document.getElementById("openPortfolio").onclick = function() { $('html, body').animate({
-//       scrollTop: $("#Portfolio").offset().top
-//   }, 1000);
-// }
-// Show portfolio from menu
+// Show the about page from menu
+(function showAbout() {
+  document.getElementById("openAbout").onclick = function() {
+        $('#nav-icon1').removeClass('open');
+        $('#onClickShow').removeClass('openMenu');
+        $("#onClickShow").addClass('close');
+        $("#onClickShow").animate({width: 0}, {duration: "slow"});
+        //Animation for the page when showing
+        $("#hideHeader").hide(300);
+        $("#about").fadeIn(1000);
+  };
+}());
+// Show Portfolio from menu
 function showPortfolio() {
     document.getElementById("openPortfolio").onclick = function() {
+      $('#nav-icon1').removeClass('open');
+      $('#onClickShow').removeClass('openMenu');
+      $("#onClickShow").addClass('close');
+      $("#onClickShow").animate({width: 0}, {duration: "slow"});
       // Gotta add and hide the div to fadeIn in Flex
       $("#Portfolio").css("display", "flex").hide().fadeIn(1000);
       $("#hideHeader").hide(500);
   };
 };
+// Menu from Portfolio page
+//_________________________________
+(function showHeaderFromPortfolio() {
+    document.getElementById("logo-portfolio").onclick = function() {
+      $("#hideHeader").fadeIn(1000);
+      $("#Portfolio").hide(500);
+  };
+}());
 // Menu from skills page
+//_________________________________
 function showHeaderFromSkills() {
     document.getElementById("logo-skills").onclick = function() {
       $("#hideHeader").fadeIn(1000);
@@ -76,6 +102,14 @@ function showPortfolioFromSkills() {
       $("#skills").hide(500);
   };
 }
+// Menu from About page
+//_________________________________
+(function showHeaderFromAbout() {
+    document.getElementById("logo-about").onclick = function() {
+      $("#hideHeader").fadeIn(1000);
+      $("#about").hide(500);
+  };
+}());
 // Fonction pour l'animation des bars de skills
 function loadanim () {
   jQuery(document).ready(function(){
@@ -85,13 +119,6 @@ function loadanim () {
       },2000);
     }); 
   });
-}
-// Show the about page from menu
-function openAbout() {
-    document.getElementById("openAbout").onclick = function() {
-                 $("#about").fadeIn(1000);
-                 $("#hideHeader").hide(500);
-  };
 }
 // Loader before front page
 var myVar;
