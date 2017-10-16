@@ -23,7 +23,14 @@
 	</head>
 	
 	<body>
+		<!-- Loader -->
 		<div id="loader"></div>
+		<!-- Hide wensite on responsive -->
+		<div id="mobile">
+			<p>Sorry, this website is only avalaible on desktop at the moment. When the website will reach it's full potential on this device, I'll bring all my energie on the mobile version.</p>
+			<p>P.S. I'm aware mobile is really important, this is why I wanna take my time :)</p>
+			<div class="center-div"><img class="animated fadeIn" src="img/JP.png" alt="Logo JP"></div>
+		</div>
 
 		<!-- Header Section-->
 		<div class="backimage animate-bottom" id="hideHeader" style="display:none;">
@@ -46,6 +53,7 @@
 					<div class="close" id="onClickShow">
 						<div class="realmenu">
 							<ul>
+								<li class="current" id="home"><a href="#home"> Home </a></li>
 								<li id="openPortfolio"><a href="#Portfolio"> Portfolio </a></li>
 								<li id="openSkills"><a href="#skills" onclick="loadanim();"> Skills  </a></li>
 								<li id="openAbout"><a href="#about"> About </a></li>
@@ -58,26 +66,26 @@
 						<div class="headertext row">
 							<div class="headertext">
 								<h1 class="enTete" data-letters="Jean-Philippe Belley">
-									<span id="First" class="hoverEffect animated fadeIn">J</span>
-									<span id="Second" class="hoverEffect animated fadeIn">e</span>
-									<span id="Third" class="hoverEffect animated fadeIn">a</span>
-									<span id="Four" class="hoverEffect animated fadeIn">n</span>
-									<span id="Five" class="hoverEffect animated fadeIn">-</span>
-									<span id="Six" class="hoverEffect animated fadeIn">P</span>
-									<span id="Seven" class="hoverEffect animated fadeIn">h</span>
-									<span id="Eight" class="hoverEffect animated fadeIn">i</span>
-									<span id="Nine" class="hoverEffect animated fadeIn">l</span>
-									<span id="Ten" class="hoverEffect animated fadeIn">i</span>
-									<span id="Eleven" class="hoverEffect animated fadeIn">p</span>
-									<span id="Twelve" class="hoverEffect animated fadeIn">p</span>
-									<span id="Thirteen" class="hoverEffect animated fadeIn">e</span>
-									<span id="Fourtheen" class="hoverEffect animated fadeIn">&nbsp;</span>
-									<span id="Fifteen" class="hoverEffect animated fadeIn">B</span>
-									<span id="Sixteen" class="hoverEffect animated fadeIn">e</span>
-									<span id="Seventeen" class="hoverEffect animated fadeIn">l</span>
-									<span id="Eighteen" class="hoverEffect animated fadeIn">l</span>
-									<span id="Nineteen" class="hoverEffect animated fadeIn">e</span>
-									<span id="Twenty" class="hoverEffect animated fadeIn">y</span>
+									<span id="First" class="animated fadeIn">J</span>
+									<span id="Second" class="animated fadeIn">e</span>
+									<span id="Third" class="animated fadeIn">a</span>
+									<span id="Four" class="animated fadeIn">n</span>
+									<span id="Five" class="animated fadeIn">-</span>
+									<span id="Six" class="animated fadeIn">P</span>
+									<span id="Seven" class="animated fadeIn">h</span>
+									<span id="Eight" class="animated fadeIn">i</span>
+									<span id="Nine" class="animated fadeIn">l</span>
+									<span id="Ten" class="animated fadeIn">i</span>
+									<span id="Eleven" class="animated fadeIn">p</span>
+									<span id="Twelve" class="animated fadeIn">p</span>
+									<span id="Thirteen" class="animated fadeIn">e</span>
+									<span id="Fourtheen" class="animated fadeIn">&nbsp;</span>
+									<span id="Fifteen" class="animated fadeIn">B</span>
+									<span id="Sixteen" class="animated fadeIn">e</span>
+									<span id="Seventeen" class="animated fadeIn">l</span>
+									<span id="Eighteen" class="animated fadeIn">l</span>
+									<span id="Nineteen" class="animated fadeIn">e</span>
+									<span id="Twenty" class="animated fadeIn">y</span>
 								</h1>
 								<h2 id="TwentyOne" class="animated zoomIn"><strong>WEB DESIGN</strong></h2> 
 							</div>
@@ -91,7 +99,17 @@
 			<!-- Logo JP-->
 			<img class="animated fadeIn" id="logo-portfolio" src="img/JP.png" alt="Logo JP">
 			
-			<h1>Portfolio</h1>
+			
+
+			<div id="portfolioMenu">
+				<h1>Portfolio</h1>
+				<ul>
+					<li id="homeFromPortfolio"><a href="#home"> Home </a></li>
+					<li class="current"><a href="#"> Portfolio </a></li>
+					<li id="skillsFromPortfolio"><a href="#skills" onclick="loadanim();"> Skills </a></li>
+					<li id="aboutFromPortfolio"><a href="#about"> About </a></li>
+				</ul>
+			</div>
 
 			<div class="wrap-div">
 				<h2>Web Developer at <br>Marketing Ultimum</h2>
@@ -114,28 +132,28 @@
 					<!-- Début de la barre JS-->
 					<li id="jsLi">
 						<img id="js" width="100" src="img/skills/js.png">
-					    <div class="skillbar clearfix " data-percent="95%">
+					    <div class="skillbar clearfix " data-percent="90%">
 	                        <div class="skillbar-bar" style="background: #eaa21b;"></div>
-	                        <div class="skill-bar-percent" style="color: #FFFFFF">95%</div>
+	                        <div class="skill-bar-percent" style="color: #FFFFFF">90%</div>
                         </div>
 					</li><!-- Fin de la barre JS -->
 					<!-- Début de la barre CSS -->
 					<li>
 						<img id="css3" width="100" src="img/skills/css3.png">
-					    <div class="skillbar clearfix " data-percent="90%">
+					    <div class="skillbar clearfix " data-percent="95%">
 	                        <div class="skillbar-bar" style="background: #0d97e6;"></div>
-	                        <div class="skill-bar-percent" style="color: #FFFFFF">90%</div>
+	                        <div class="skill-bar-percent" style="color: #FFFFFF">95%</div>
                         </div>
 					</li><!-- Fin de la barre CSS -->
 				</ul>
 			</div>
 			
 			<div id="styledivSkills">
-				<p id="textSkills">Coding is a passion I've been traveling with for a long time. As I remember, I've been the only student in my psychology bachelor who took a coding class. I refined this skill while studiying music &amp; technology where I had the opportunity to learn the basics of python and pure data. At the moment, I'm always addict to take this hability to the next level by taking classes at UdeM as a part time student and spending most of my time on <a href="Lynda.com" style="color: black">Lynda.com</a> &amp; <a href="codeacademy.com" style="color: black">codeacademy.com</a></p>
+				<p id="textSkills">Coding is a passion I've been traveling with for a long time. As I remember, I've been the only student in psychology who took a coding class. I refined this skill while studiying music &amp; technology where I had the opportunity to learn  Python, Javascript, PHP and pure data. At the moment, I'm always addict to take this hability to the next level by taking classes at UdeM as a part time student and spending most of my time on <a href="Lynda.com" style="color: black">Lynda.com</a> &amp; <a href="codeacademy.com" style="color: black">codeacademy.com</a></p>
 				
 			    <img id="react" width="200" src="img/skills/react.png" style="margin-top: 5px;">
 				<!-- Début de la barre REACT -->
-				<div class="skillbar clearfix " data-percent="60%" style="float: right; margin-right: 100px; margin-top: 75px; width: 32%; height:25px;">
+				<div class="skillbar clearfix " data-percent="60%" style="float: right; margin-right: 100px; margin-top: 75px; width: 32%; height:35px;">
 		            <div class="skillbar-title" style="background: #2980b9;"><span>REACT</span></div>
 		            <div class="skillbar-bar" style="background: #3498db; height:35px"></div>
 		            <div class="skill-bar-percent">60%</div>
@@ -143,10 +161,11 @@
 	            <!-- Fin de la barre REACT -->
 			</div>
 			<div style="float: right;">
-				<ul style="margin-right: 50px;">
+				<ul style="margin: -20px 50px 0 0;">
+					<li id="homeFromSkills" style="list-style-type: none;"><a href="#home"> Home </a></li>
 					<li id="openPortfolioSkills" style="list-style-type: none;"><a href="#Portfolio"> Portfolio </a></li>
-					<li id="openSkills" style="list-style-type: none;"><a href="#skills"> Skills </a></li>
-					<li style="list-style-type: none;"><a href="#about"> About </a></li>
+					<li style="list-style-type: none;"><a href="#skills"> Skills </a></li>
+					<li id="aboutFromSkills" style="list-style-type: none;"><a href="#about"> About </a></li>
 				</ul>
 			</div>
 		</section>
@@ -158,7 +177,7 @@
 			<img class="animated fadeIn" id="logo-about" src="img/JP.png" alt="Logo JP">
 
 			<h1>About</h1>
-			<p>I work as a web designer &amp; consultant for businesses. Most of my time is dedicated to apply strategies with entrepreneurs to make their businesses a reality or reach that next step stoping them from growth. I cofounded <a href="http://dgtlentrepreneurs.com/" target="_blank">Digital Entrepreneurs</a> with Pierre Fortin, this project has been our own university of life. We've been learning from speakers with incredible expertize who are great actors of the online industry in Montreal and internationaly. My projects are driven by the philosophy of finding meaning in the our work and keeping a great balance between work and life, so your dreams won't die.  
+			<p>I work as a web designer &amp; consultant for businesses. Most of my time is dedicated to apply strategies with entrepreneurs to make their businesses a reality or reach that next step stoping them from growth. I cofounded <a href="http://dgtlentrepreneurs.com/" target="_blank">Digital Entrepreneurs</a> with Pierre Fortin, this project has been our university in the real world. We've been learning from speakers with incredible expertize who are great actors of the online industry in Montreal and internationaly. My projects are driven by the philosophy of finding meaning in the our work and keeping a great balance between work and life, so your dreams won't die.  
 			</p>
 
 			<div id="stylediv">

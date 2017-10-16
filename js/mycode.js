@@ -88,6 +88,24 @@ function showPortfolio() {
       $("#Portfolio").hide(500);
   };
 }());
+(function showHomeFromPortfolio() {
+    document.getElementById("homeFromPortfolio").onclick = function() {
+      $("#hideHeader").fadeIn(1000);
+      $("#Portfolio").hide(500);
+  };
+}());
+(function showSkillsFromPortfolio() {
+    document.getElementById("skillsFromPortfolio").onclick = function() {
+      $("#Portfolio").hide(500);
+      $("#skills").fadeIn(1000);
+      $("#html5").show(1400);
+      $("#js").show(1700);
+      $("#css3").show(1900);
+      $(".skillbar").fadeIn(1900);
+      $("#skillsHeader").fadeIn(1700);
+      $("#textSkills").fadeIn(1800);
+  };
+}());
 // Menu from skills page
 //_________________________________
 function showHeaderFromSkills() {
@@ -96,12 +114,24 @@ function showHeaderFromSkills() {
       $("#skills").hide(500);
   };
 }
+(function showHomeFromSkills() {
+    document.getElementById("homeFromSkills").onclick = function() {
+      $("#skills").hide(500);
+      $("#hideHeader").fadeIn(1000);
+  };
+}());
 function showPortfolioFromSkills() {
     document.getElementById("openPortfolioSkills").onclick = function() {
       $("#Portfolio").css("display", "flex").hide().fadeIn(1000);
       $("#skills").hide(500);
   };
 }
+(function showAboutFromSkills() {
+    document.getElementById("aboutFromSkills").onclick = function() {
+      $("#skills").hide(500);
+      $("#about").fadeIn(1000);
+  };
+}());
 // Menu from About page
 //_________________________________
 (function showHeaderFromAbout() {
@@ -128,7 +158,10 @@ function myFunction() {
 }
 
 function showPage() {
-  console.log('Fuckit');
   $("#loader").fadeOut();
-  $("#hideHeader").fadeIn();
+  if (screen.width > 768) {
+    $("#hideHeader").fadeIn();
+  } else {
+    $("#mobile").fadeIn();
+  }
 }

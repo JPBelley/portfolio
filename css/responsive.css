@@ -26,4 +26,27 @@ ____________________________*/
 		font-size: 13px;
 		margin: 0px 23px;
 	}
+
+	/* Mobile box 
+	******************/
+	#mobile {
+		background-color: #1B1C1E;
+		color: #F7F7FF;
+		height: 100%;
+		text-align: justify;
+	}
+	#mobile p {
+		padding: 100px 50px 0;
+		margin: 0;
+	}
+	#mobile p:nth-child(2) {
+		padding: 50px 50px 0;
+	}
+	.center-div {
+		text-align: center;
+	}
+	.center-div img {
+		margin: 25px 0 0 0;
+		width: 150px;
+	}
 }
