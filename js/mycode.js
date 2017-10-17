@@ -106,6 +106,12 @@ function showPortfolio() {
       $("#textSkills").fadeIn(1800);
   };
 }());
+(function showHomeFromPortfolio() {
+    document.getElementById("aboutFromPortfolio").onclick = function() {
+      $("#about").fadeIn(1000);
+      $("#Portfolio").hide(500);
+  };
+}());
 // Menu from skills page
 //_________________________________
 function showHeaderFromSkills() {
