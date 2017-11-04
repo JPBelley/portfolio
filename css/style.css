@@ -1,9 +1,9 @@
 /* Colors : Black = #1B1C1E
-			Flame = #E4572E
-			Tiffany BLue = #17BEBB
-			Eton Blue = #A1CCA5
-			Ghost white = #F7F7FF
-								*/
+Flame = #E4572E
+Tiffany BLue = #17BEBB
+Eton Blue = #A1CCA5
+Ghost white = #F7F7FF
+*/
 
 /* CSS reset margins*/
 
@@ -16,7 +16,7 @@
 	padding: 0;
 }
 
-/* General CSS */ 
+/* General CSS */
 
 html {
 	height: 100%;
@@ -48,8 +48,8 @@ p {
 header {
 	background-image: linear-gradient(#1B1C1E, rgba(0,0,0,.4)), url('../img/jpswag.jpg');
 	background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+	background-position: center center;
+	background-size: cover;
 	text-align: center;
 	color: #fff;
 	width: 100%;
@@ -65,33 +65,33 @@ section {
 /* Logo */
 #logo {
 	position: fixed;
-    margin: 35px;
-    left: 0px;
-    width: 40px;
-    -webkit-animation-duration: 0.1s;
-    -webkit-animation-delay: 1.2s;
+	margin: 35px;
+	left: 0px;
+	width: 40px;
+	-webkit-animation-duration: 0.1s;
+	-webkit-animation-delay: 1.2s;
 }
 #logo-portfolio {
 	position: fixed;
-    margin: 35px;
-    bottom: 0px;
-    width: 50px;
-    z-index: 2;
-    cursor: pointer;
+	margin: 35px;
+	right: 0px;
+	width: 50px;
+	z-index: 3;
+	cursor: pointer;
 }
 #logo-skills {
 	position: fixed;
 	margin: 35px;
-    width: 50px;
-    left: 0px;
-    cursor: pointer;
+	width: 50px;
+	left: 0px;
+	cursor: pointer;
 }
 #logo-about {
 	position: fixed;
-    margin: 35px 75px 35px 35px;
-    right: 0px;
-    width: 40px;
-    cursor: pointer;
+	margin: 35px 75px 35px 35px;
+	right: 0px;
+	width: 40px;
+	cursor: pointer;
 }
 /* Navigation Menu */
 nav a {
@@ -99,7 +99,7 @@ nav a {
 	text-decoration: none;
 }
 nav li {
-    display: inline;
+	display: inline;
 	padding: 8px;
 	text-transform: uppercase;
 }
@@ -111,7 +111,7 @@ nav li {
 .burgermenu {
 	float: right;
 	top: 54px;
-    right: 45px;
+	right: 45px;
 	-webkit-animation-duration: 2s;
 	-webkit-animation-delay: 1s;
 	font-size: 25px;
@@ -122,7 +122,7 @@ nav li {
 .realmenu li{
 	display: inline;
 	float: left;
-    padding: 0px 10px;
+	padding: 0px 10px;
 }
 .realmenu {
 	position: relative;
@@ -133,11 +133,11 @@ nav li {
 }
 .topbar {
 	width: 100%;
-	position: absolute;	
+	position: absolute;
 }
 .maindiv {
-    background-position: center center;
-    background-size: cover;
+	background-position: center center;
+	background-size: cover;
 	width: 100%;
 	height: 100%;
 }
@@ -174,116 +174,116 @@ a:visited {
 }
 
 a:hover {
-	color: #2980b9;	
+	color: #2980b9;
 }
 a:active {
- 	color: #E0FBFC;
+	color: #E0FBFC;
 }
 /* Animation */
 #First {
-  -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 0.2s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 0.2s;
 }
 #Second {
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-delay: 0.4s;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-delay: 0.4s;
 }
 #Third {
-  -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 0.6s;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 0.6s;
 }
 #Four {
-  -webkit-animation-duration: 4s;
-  -webkit-animation-delay: 0.7s;
-}  
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 0.7s;
+}
 #Five {
-  -webkit-animation-duration: 1.3s;
-  -webkit-animation-delay: 0.8s;
-}  
+	-webkit-animation-duration: 1.3s;
+	-webkit-animation-delay: 0.8s;
+}
 #Six {
-  -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 1s;
-}  
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 1s;
+}
 #Seven {
-  -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 1.2s;
-}  
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 1.2s;
+}
 #Eight {
-  -webkit-animation-duration: 2.5s;
-  -webkit-animation-delay: 1.4s;
-} 
+	-webkit-animation-duration: 2.5s;
+	-webkit-animation-delay: 1.4s;
+}
 #Nine {
-  -webkit-animation-duration: 3.5s;
-  -webkit-animation-delay: 1.6s;
-} 
+	-webkit-animation-duration: 3.5s;
+	-webkit-animation-delay: 1.6s;
+}
 #Ten {
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-delay: 1.8s;
-}  
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-delay: 1.8s;
+}
 #Eleven {
-  -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 2s;
-}  
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 2s;
+}
 #Twelve {
-  -webkit-animation-duration: 4s;
-  -webkit-animation-delay: 1.8s;
-} 
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 1.8s;
+}
 #Thirteen {
-  -webkit-animation-duration: 2.5s;
-  -webkit-animation-delay: 1.6s;
-} 
+	-webkit-animation-duration: 2.5s;
+	-webkit-animation-delay: 1.6s;
+}
 #Fourteen {
-  -webkit-animation-duration: 2.5s;
-  -webkit-animation-delay: 1.4s;
-} 
+	-webkit-animation-duration: 2.5s;
+	-webkit-animation-delay: 1.4s;
+}
 #Fifteen {
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-delay: 1.2s;
-}  
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-delay: 1.2s;
+}
 #Sixteen {
-  -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 1s;
-}  
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 1s;
+}
 #Seventeen {
-  -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 0.8s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 0.8s;
 }
 #Eighteen {
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-delay: 0.6s;
-}  
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-delay: 0.6s;
+}
 #Nineteen {
-  -webkit-animation-duration: 4s;
-  -webkit-animation-delay: 0.4s;
-} 
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 0.4s;
+}
 #Twenty {
-  -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 0.2s;
-} 
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 0.2s;
+}
 #TwentyOne {
-  -webkit-animation-duration: 2.5s;
-  -webkit-animation-delay: 1s;
-} 
+	-webkit-animation-duration: 2.5s;
+	-webkit-animation-delay: 1s;
+}
 /* Menu     width: 640px;
-	        height: 40px; */
+height: 40px; */
 .openMenu {
 	display: inline !important;
-    width: 10px;
+	width: 10px;
 	height: 40px;
 	position: absolute;
 	border-style: solid;
 	border-width: 0.5px;
 	border-radius: 6px;
-    border-color: rgba(255,255,255,0.4);
+	border-color: rgba(255,255,255,0.4);
 	top: 54px;
-    right: 35px;
+	right: 35px;
 }
 .open:hover {
 	width: 640px;
-	height: 40px;   
+	height: 40px;
 }
 .close {
-  display: none;
+	display: none;
 }
 /* Buger Menu */
 #nav-icon1 {
@@ -319,7 +319,7 @@ a:active {
 	transition: .25s ease-in-out;
 }
 #nav-icon1 span:nth-child(1) {
-    top: 0px;
+	top: 0px;
 }
 #nav-icon1 span:nth-child(2) {
 	top: 9px;
@@ -351,36 +351,37 @@ a:active {
 }
 #Portfolio {
 	color: #1C1C1C;
-    background-color: #F7F9F9;
-    display: none;
-    overflow: hidden;
+	background-color: #F7F9F9;
+	display: none;
+	overflow: hidden;
+	flex-direction: column;
 }
 #Portfolio h1 {
 	color: #F7F9F9;
 	font-size: 3em;
-    font-weight: 400;
-    padding: 25px 70px;
-    z-index: 1;
+	font-weight: 400;
+	padding: 25px 70px;
+	z-index: 1;
 }
-/*#Portfolio::after {
+#Portfolio::after {
 	position: absolute;
-    transform: rotate(-87deg);
-    -ms-transform: rotate(-87deg);
-    -webkit-transform: rotate(-87deg);
-    -o-transform: rotate(-87deg);
-    -moz-transform: rotate(-87deg);
-    padding: 0;
-  	overflow: hidden;
-    background-color: #1C1C1C;
-    left: -375px;
-    width: 102%;
-    height: 120px;
-    content:" ";
-    top: -29px;
-    z-index: -1;
-}*/
+	transform: rotate(3deg);
+	-ms-transform: rotate(3deg);
+	-webkit-transform: rotate(3deg);
+	-o-transform: rotate(3deg);
+	-moz-transform: rotate(3deg);
+	padding: 0;
+	overflow: hidden;
+	background-color: #1C1C1C;
+	left: -10px;
+	width: 102%;
+	height: 360px;
+	content:" ";
+	z-index: 1;
+}
 #portfolioMenu {
 	background-color: #1C1C1C;
+	z-index: 2;
 }
 #portfolioMenu ul {
 	margin-left: 45px;
@@ -394,6 +395,7 @@ a:active {
 }
 .wrap-div {
 	display: flex;
+	flex-direction: column;
 	width: 100%;
 	height: 100%;
 }
@@ -408,74 +410,74 @@ a:active {
 	font-weight: 100;
 }
 #skills h1 {
-    float: right;
-    margin: 60px;
-    font-weight: 100;
-    font-size: 2.5em;
+	float: right;
+	margin: 60px;
+	font-weight: 100;
+	font-size: 2.5em;
 }
 #skills p {
 	width: 40%;
-    float: left;
-    margin: 50px 0 0 80px;
-    font-family: 'Raleway', Helvetica, sans-serif;
-    text-align: justify;
-    color: black;
-    clear: both;
+	float: left;
+	margin: 50px 0 0 80px;
+	font-family: 'Raleway', Helvetica, sans-serif;
+	text-align: justify;
+	color: black;
+	clear: both;
 }
 #styledivSkills {
 	position: fixed;
 	top: 60%;
-    width: 100%;
-    height: 40%;
-    background-color: #F7F7FF;
-    z-index: 0;
+	width: 100%;
+	height: 40%;
+	background-color: #F7F7FF;
+	z-index: 0;
 }
 #styledivSkills::before {
 	position: absolute;
-    transform: rotate(1.7deg);
-    -ms-transform: rotate(1.7deg);
-    -webkit-transform: rotate(1.7deg);
-    -o-transform: rotate(1.7deg);
-    -moz-transform: rotate(1.7deg);
-    padding: 0;
-  	overflow: hidden;
-    background-color: #F7F7FF;
-    left: -3px;
-    width: 102%;
-    height: 50px;
-    content:" ";
-    z-index: -2;
-    top: -29px;
+	transform: rotate(1.7deg);
+	-ms-transform: rotate(1.7deg);
+	-webkit-transform: rotate(1.7deg);
+	-o-transform: rotate(1.7deg);
+	-moz-transform: rotate(1.7deg);
+	padding: 0;
+	overflow: hidden;
+	background-color: #F7F7FF;
+	left: -3px;
+	width: 102%;
+	height: 50px;
+	content:" ";
+	z-index: -2;
+	top: -29px;
 }
 #skills i {
-  font-size: 5em;
-  margin: 25px;
+	font-size: 5em;
+	margin: 25px;
 }
 #listOfSkills ul {
-  list-style-type: none;
-  display: inline-flex;
+	list-style-type: none;
+	display: inline-flex;
 }
 #listOfSkills {
-  margin: 75px;
+	margin: 75px;
 }
 #html5 {
-  display: none;
+	display: none;
 }
 #js {
-  display: none;
+	display: none;
 }
 #jsLi {
 	position: relative;
 	top: -15px;
 }
 #css3 {
-  display: none;
+	display: none;
 }
 #textSkills {
-  display: none;
+	display: none;
 }
 #skillsHeader {
-  display: none;
+	display: none;
 }
 .skillbar {
 	display: none;
@@ -509,7 +511,7 @@ a:active {
 	position:absolute;
 	top:0;
 	left:0;
-    width:110px;
+	width:110px;
 	height:35px;
 	font-weight:bold;
 	font-size:13px;
@@ -564,24 +566,24 @@ a:active {
 	font-weight: 100;
 }
 #about h1 {
-    float: left;
-    margin: 30px;
-    font-weight: 100;
+	float: left;
+	margin: 30px;
+	font-weight: 100;
 }
 #about p {
-    float: right;
-    margin: 30px 80px 0 0;
-    font-family: 'Raleway', Helvetica, sans-serif;
-    text-align: justify;
-    clear: both;
+	float: right;
+	margin: 30px 80px 0 0;
+	font-family: 'Raleway', Helvetica, sans-serif;
+	text-align: justify;
+	clear: both;
 }
 #stylediv {
 	position: fixed;
 	top: 60%;
-    width: 100%;
-    height: 40%;
-    background-color: #1C1C1C;
-    z-index: 0;
+	width: 100%;
+	height: 40%;
+	background-color: #1C1C1C;
+	z-index: 0;
 }
 @media (min-width: 769px) {
 	#about p {
@@ -590,20 +592,20 @@ a:active {
 }
 #stylediv::before {
 	position: absolute;
-    transform: rotate(1.7deg);
-    -ms-transform: rotate(1.7deg);
-    -webkit-transform: rotate(1.7deg);
-    -o-transform: rotate(1.7deg);
-    -moz-transform: rotate(1.7deg);
-    padding: 0;
-  	overflow: hidden;
-    background-color: #1C1C1C;
-    left: -3px;
-    width: 102%;
-    height: 50px;
-    content:" ";
-    top: -29px;
-    z-index: -2;
+	transform: rotate(1.7deg);
+	-ms-transform: rotate(1.7deg);
+	-webkit-transform: rotate(1.7deg);
+	-o-transform: rotate(1.7deg);
+	-moz-transform: rotate(1.7deg);
+	padding: 0;
+	overflow: hidden;
+	background-color: #1C1C1C;
+	left: -3px;
+	width: 102%;
+	height: 50px;
+	content:" ";
+	top: -29px;
+	z-index: -2;
 }
 #stylediv p {
 	float: left;
@@ -616,45 +618,45 @@ a:active {
 }
 /* Loader */
 #loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  width: 50px;
-  height: 50px;
-  margin: -75px 0 0 -75px;
-  border: 10px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 10px solid #3498db;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 1;
+	width: 50px;
+	height: 50px;
+	margin: -75px 0 0 -75px;
+	border: 10px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 10px solid #3498db;
+	-webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
 }
 
 @-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
 }
 /* Add animation to "page content" */
 .animate-bottom {
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
-  animation-name: animatebottom;
-  animation-duration: 1s
+	-webkit-animation-name: animatebottom;
+	-webkit-animation-duration: 1s;
+	animation-name: animatebottom;
+	animation-duration: 1s
 }
 
 @-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:1 }
+	from { bottom:-100px; opacity:0 }
+	to { bottom:0px; opacity:1 }
 }
 
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
+@keyframes animatebottom {
+	from{ bottom:-100px; opacity:0 }
+	to{ bottom:0; opacity:1 }
 }
 /* Mobile box
 ****************/
