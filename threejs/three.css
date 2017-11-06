@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#three__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  height: 100%;
+  background: #fff;
+  background: -moz-linear-gradient(white, #ccc);
+  background: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#CCC, to(white)));
+  background: -webkit-linear-gradient(white, #ccc);
+}
