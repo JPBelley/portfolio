@@ -1,0 +1,44 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>3D</title>
+  <style media="screen">
+  body {
+    font-family: Monospace;
+    background-color: #f0f0f0;
+    margin: 0px;
+    overflow: hidden;
+  }
+  #info {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    padding: 5px;
+    font-family:Monospace;
+    font-size:13px;
+    text-align:center;
+    color: #ffffff;
+  }
+  a {
+    color: #ffffff;
+  }
+  </style>
+  <!-- <link rel="stylesheet" href="three.css"> -->
+</head>
+<body>
+
+  <div id="container"></div>
+  <div id="info">
+    <a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> - GPU particle system plugin by <a href="http://charliehoey.com">Charlie Hoey</a>.
+  </div>
+
+  <script src="js/three.min.js"></script>
+  <script src="js/TrackballControls.js"></script>
+  <script src="js/dat.gui.min.js"></script>
+  <script src="js/stats.min.js"></script>
+  <script src="js/GPUParticleSystem.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
