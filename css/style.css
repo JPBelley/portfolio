@@ -579,6 +579,7 @@ height: 40px; */
 	float: left;
 	margin: 30px;
 	font-weight: 100;
+	border-bottom: 1px solid white;
 }
 #about p {
 	float: right;
@@ -588,9 +589,10 @@ height: 40px; */
 	clear: both;
 }
 #aboutMenu ul {
+	padding-top: 10px;
 	position: fixed;
-	bottom: 100px;
-	right: 50px;
+	top: 60px;
+	left: 33px;
 	z-index: 1000;
 }
 #aboutMenu li {
