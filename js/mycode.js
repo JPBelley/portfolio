@@ -30,7 +30,7 @@ $(document).ready(function(){
 		$(this).toggleClass('open');
 	});
 });
-// Header Menu 
+// Header Menu
 //_________________________________
 // Show skills from menu
 function showSkills() {
@@ -146,6 +146,30 @@ function showPortfolioFromSkills() {
       $("#about").hide(500);
   };
 }());
+(function homeFromAbout() {
+    document.getElementById("homeFromAbout").onclick = function() {
+      $("#hideHeader").css("display", "flex").hide().fadeIn(1000);
+      $("#about").hide(500);
+  };
+}());
+(function portfolioFromAbout() {
+    document.getElementById("portfolioFromAbout").onclick = function() {
+      $("#Portfolio").css("display", "flex").hide().fadeIn(1000);
+      $("#about").hide(500);
+  };
+}());
+(function skillsFromAbout() {
+    document.getElementById("skillsFromAbout").onclick = function() {
+      $("#about").hide(500);
+      $("#skills").fadeIn(1000);
+      $("#html5").show(1400);
+      $("#js").show(1700);
+      $("#css3").show(1900);
+      $(".skillbar").fadeIn(1900);
+      $("#skillsHeader").fadeIn(1700);
+      $("#textSkills").fadeIn(1800);
+  };
+}());
 // Fonction pour l'animation des bars de skills
 function loadanim () {
   jQuery(document).ready(function(){
@@ -153,7 +177,7 @@ function loadanim () {
       jQuery(this).find('.skillbar-bar').animate({
       width:jQuery(this).attr('data-percent')
       },2000);
-    }); 
+    });
   });
 }
 // Loader before front page
