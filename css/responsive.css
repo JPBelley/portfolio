@@ -1,25 +1,83 @@
-/* Header  
+/* Header
 ____________________________*/
 @media screen and (max-width: 768px) {
-	/* Home page 
+	/* Home page
 	******************/
 	#loader {
 		margin-left: -32px;
 	}
 	#logo {
-		width: 80px;
+		width: 50px;
 		margin: 10px;
 	}
 	.burgermenu {
-	    top: 40px;
-	    right: 40px;
+		top: 40px;
+		right: 40px;
 	}
 	.openMenu {
 		top: 40px;
 		height: 70px;
 	}
 
-	/* About page 
+	/* Skills page
+	******************/
+	#skillsMenu {
+		float: none;
+		position: absolute;
+		width: 100%;
+		top: -25px;
+	}
+	#skillsMenu ul {
+		display: flex;
+		justify-content: space-around;
+		margin: 0;
+	}
+
+	#skills h1 {
+		margin: 12px 10px 0 0;
+	}
+
+	#skills p {
+		float: none;
+		margin: -10px auto;
+		width: 90%;
+	}
+
+	#listOfSkills {
+		margin: 150px 0;
+	}
+
+	#logo-skills {
+		margin: 10px;
+		top: 0;
+	}
+	#html5 {
+		width: 75px;
+	}
+
+	#js {
+		width: 75px;
+	}
+
+	#css3 {
+		width: 75px;
+	}
+
+	#react {
+		float: left;
+		width: 50px;
+		margin-top: 15px;
+		margin-left: 50px;
+	}
+	#reactPercentage {
+		float: right;
+		margin-right: 50px;
+		margin-top: 23px;
+		width: 40%;
+		height: 35px;
+	}
+
+	/* About page
 	******************/
 	#about p {
 		float: right;
@@ -27,9 +85,10 @@ ____________________________*/
 		margin: 0px 23px;
 	}
 
-	/* Mobile box 
+	/* Mobile box
 	******************/
 	#mobile {
+		display: none;
 		background-color: #1B1C1E;
 		color: #F7F7FF;
 		height: 100%;

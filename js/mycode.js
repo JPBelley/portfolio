@@ -184,14 +184,14 @@ function loadanim () {
 var myVar;
 
 function myFunction() {
-    myVar = setTimeout(showPage, 2000);
+    myVar = setTimeout(showPage, 20);
 }
-
+//
 function showPage() {
   $("#loader").fadeOut();
-  if (screen.width > 768) {
+  // if (screen.width > 768) {
     $("#hideHeader").fadeIn();
-  } else {
-    $("#mobile").fadeIn();
-  }
+  // } else {
+    // $("#mobile").fadeIn();
+  // }
 }

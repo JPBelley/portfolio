@@ -15,6 +15,11 @@ window.addEventListener('resize', function() {
   camera.updateProjectionMatrix();
 });
 
+// Creating a light for the scene
+var pointLight = new THREE.PointLight( 0xff0000, 1, 100 );
+pointLight.position.set( 5, 5, 5 );
+scene.add( pointLight );
+
 // Creating the cube
 var geometry = new THREE.BoxGeometry( 1, 1, 1 );
 var material = new THREE.MeshNormalMaterial( { color: 0xFFFFFF } );
@@ -34,6 +39,7 @@ var guiControls = new function() {
 var datGUI = new dat.GUI();
 datGUI .add(guiControls, 'rotationX', 0, 0.1);
 datGUI .add(guiControls, 'rotationY', 0, 0.1);
+datGUI .add(guiControls, 'rotationZ', 0, 0.1);
 datGUI .add(guiControls, 'rotationZ', 0, 0.1);
 
 var animate = function () {

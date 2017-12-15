@@ -15,3 +15,15 @@ body {
   background: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#CCC, to(white)));
   background: -webkit-linear-gradient(white, #ccc);
 }
+#homeFromThree {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+}
+#homeFromThree a {
+  color: white;
+  font-family: Helvetica;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
