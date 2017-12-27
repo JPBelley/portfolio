@@ -1,0 +1,150 @@
+/* Header
+____________________________*/
+@media screen and (max-width: 768px) {
+	/* Home page
+	******************/
+	#loader {
+		margin-left: -32px;
+	}
+	#logo {
+		width: 50px;
+		margin: 10px;
+	}
+	.burgermenu {
+		top: 25px;
+		right: 25px;
+	}
+	.openMenu {
+		top: 20px;
+		right: 20px;
+		height: 70px;
+	}
+	.realmenu  {
+		top: 20%;
+	}
+	.realmenu li {
+		padding-bottom: 4px;
+	}
+	.enTete {
+		font-size: 1.2em;
+	}
+	#TwentyOne {
+		font-size: 1em;
+	}
+	#experiment {
+		left: 15px;
+		bottom: 15px;
+	}
+
+	/* Skills page
+	******************/
+	#skillsMenu {
+		float: none;
+		position: absolute;
+		width: 100%;
+		top: -25px;
+	}
+	#skillsMenu ul {
+		display: flex;
+		justify-content: space-around;
+		margin: 0;
+	}
+
+	#skills h1 {
+		margin: 12px 10px 0 0;
+	}
+
+	#skills p {
+		float: none;
+		margin: -10px auto;
+		width: 90%;
+	}
+
+	#listOfSkills {
+		margin: 150px 0;
+	}
+
+	#logo-skills {
+		margin: 10px;
+		top: 0;
+	}
+	#html5 {
+		width: 75px;
+	}
+
+	#js {
+		width: 75px;
+	}
+
+	#css3 {
+		width: 75px;
+	}
+
+	#react {
+		float: left;
+		width: 50px;
+		margin-top: 15px;
+		margin-left: 50px;
+	}
+	#reactPercentage {
+		float: right;
+		margin-right: 50px;
+		margin-top: 23px;
+		width: 40%;
+		height: 35px;
+	}
+
+	/* About page
+	******************/
+	#about p {
+		float: right;
+		font-size: 13px;
+		margin: 40px 23px 0;
+	}
+	#aboutMenu ul {
+		display: inline-flex;
+		position: fixed;
+		// bottom: auto;
+		right: 0;
+		left: 0;
+		z-index: 100;
+		justify-content: center;
+	}
+	#aboutMenu li {
+		margin-left: 10px;
+	}
+	
+	/* Mobile box
+	******************/
+	#mobile {
+		display: none;
+		background-color: #1B1C1E;
+		color: #F7F7FF;
+		height: 100%;
+		text-align: justify;
+	}
+	#mobile p {
+		padding: 100px 50px 0;
+		margin: 0;
+	}
+	#mobile p:nth-child(2) {
+		padding: 50px 50px 0;
+	}
+	.center-div {
+		text-align: center;
+	}
+	.center-div img {
+		margin: 25px 0 0 0;
+		width: 150px;
+	}
+}
+/* For the f****** iPhone 5
+******************/
+@media screen and (max-width: 768px) {
+	#listOfSkills {
+		margin: 110px 0;
+	}
+	#skills p {
+		font-size: 0.8em;
+	}
+}

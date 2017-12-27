@@ -1,5 +1,5 @@
 {
-  "name": "jp",
+  "name": "jpbelley",
   "version": "1.0.0",
   "description": "My portfolio",
   "main": "index.js",
@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/JPBelley/portfolio/issues"
   },
-  "homepage": "https://github.com/JPBelley/portfolio#readme"
+  "homepage": "https://github.com/JPBelley/portfolio#readme",
+  "keywords": [
+    "portfolio",
+    "three.js",
+    "gulp",
+    "css"
+  ],
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
 }
