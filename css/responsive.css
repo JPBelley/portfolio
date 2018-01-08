@@ -26,6 +26,13 @@ ____________________________*/
   #experiment {
     left: 15px;
     bottom: 15px; }
+  /* Portfolio page
+	******************/
+  #Portfolio h1 {
+    font-size: 2em; }
+  .wrap-div {
+    font-size: 1.5em;
+    margin-top: 20px; }
   /* Skills page
 	******************/
   #skillsMenu {
@@ -67,10 +74,14 @@ ____________________________*/
     height: 35px; }
   /* About page
 	******************/
+  #logo-about {
+    margin: 25px; }
+  #about h1 {
+    margin-bottom: 50px; }
   #about p {
-    float: right;
+    float: none;
     font-size: 13px;
-    margin: 40px 23px 0; }
+    margin: 50px 25px 0; }
   #aboutMenu ul {
     display: inline-flex;
     position: fixed;

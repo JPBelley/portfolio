@@ -6,7 +6,7 @@ Eton Blue = #A1CCA5
 Ghost white = #F7F7FF
 */
 /* CSS reset margins*/
-/*Project fonts*/
+/* Project fonts */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 /*CSS reset*/
 * {
@@ -373,7 +373,7 @@ height: 40px; */
   overflow: hidden;
   background-color: #1C1C1C;
   left: 0px;
-  width: 102%;
+  width: 112%;
   height: 360px;
   content: " ";
   z-index: 1; }
@@ -617,12 +617,11 @@ height: 40px; */
 
 #stylediv p::before {
   content: "";
-  width: 40px;
-  background: #17BEBB;
-  height: 2px;
-  top: 30px;
   position: absolute;
-  border-radius: 47px;
+  width: 40px;
+  height: 1px;
+  background: #17BEBB;
+  top: 30px;
   opacity: 0.8; }
 
 @media (min-width: 769px) {

@@ -35,6 +35,15 @@ ____________________________*/
 		left: 15px;
 		bottom: 15px;
 	}
+	/* Portfolio page
+	******************/
+	#Portfolio h1 {
+		font-size: 2em;
+	}
+	.wrap-div {
+		font-size: 1.5em;
+		margin-top: 20px;
+	}
 
 	/* Skills page
 	******************/
@@ -96,11 +105,20 @@ ____________________________*/
 
 	/* About page
 	******************/
-	#about p {
-		float: right;
-		font-size: 13px;
-		margin: 40px 23px 0;
+#logo-about {
+	margin: 25px;
+}
+
+	#about h1 {
+		margin-bottom: 50px;
 	}
+
+	#about p {
+		float: none;
+		font-size: 13px;
+		margin: 50px 25px 0;
+	}
+
 	#aboutMenu ul {
 		display: inline-flex;
 		position: fixed;
@@ -113,7 +131,7 @@ ____________________________*/
 	#aboutMenu li {
 		margin-left: 10px;
 	}
-	
+
 	/* Mobile box
 	******************/
 	#mobile {
