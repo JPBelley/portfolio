@@ -36,6 +36,37 @@ var guiControls = new function() {
   this.rotationZ = 0.001;
 }
 
+// Models
+var model;
+var forecastModel;
+
+// Load the JSON files and provide callback functions (modelToScene
+var loader = new THREE.JSONLoader();
+// loader.load( "models/main_building.json", addModelToScene );
+// loader.load( "models/building_right.json", addModelToScene );
+// loader.load( "models/building_left.json", addModelToScene );
+loader.load( "models/uvSphere.json", addSphereToScene );
+
+// After loading JSON from our file, we add it to the scene
+function addModelToScene( geometry, materials ) {
+  var material = new THREE.MeshFaceMaterial(materials);
+  model = new THREE.Mesh( geometry, material );
+  model.scale.set(0.5,0.5,0.5);
+  scene.add( model );
+}
+
+// Special callback to get a reference to the sphere
+function addSphereToScene( geometry, materials ){
+  var material = new THREE.MeshFaceMaterial(materials);
+  sphereModel = new THREE.Mesh( geometry, material );
+  sphereModel.scale.set(0.5,0.5,0.5);
+  sphereModel.position.y += 0.5;
+  scene.add( sphereModel );
+}
+
+
+
+// dat GUI control to play with objects
 var datGUI = new dat.GUI();
 datGUI .add(guiControls, 'rotationX', 0, 0.1);
 datGUI .add(guiControls, 'rotationY', 0, 0.1);
